@@ -1,5 +1,5 @@
 # 결과 재현
-`python3 eval.py --trained_model=weights/yolact_im700_54_800000.pth --score_threshold=0.15 --top_k=15 --images=/home/taehyeon/yolact/polygon/1/20200717_150228/1:/home/taehyeon/yolact/polygon/1/20200717_150228/1_result`
+`python3 inference.py --trained_model=weights/yolact_im700_54_800000.pth --score_threshold=0.15 --top_k=15 --images={INPUT_IMAGES_PATH}:{OUTPUT_ANNOTATION_PATH}`
 
 
 
