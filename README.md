@@ -1,7 +1,9 @@
 # 결과 재현
 `python3 inference.py --trained_model=weights/yolact_im700_54_800000.pth --score_threshold=0.15 --top_k=15 --images={INPUT_IMAGES_PATH}:{OUTPUT_ANNOTATION_PATH}`
 
-
+# 결과 예시
+![1_20200717_150228_001990](https://user-images.githubusercontent.com/45509381/103253237-a9229b80-49c3-11eb-95d6-96cf0851984e.png)
+![1_20200717_150228_003040](https://user-images.githubusercontent.com/45509381/103253238-aaec5f00-49c3-11eb-8f63-f1e307233a14.png)
 
 
 
